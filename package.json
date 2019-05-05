@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "description": "Intuitive and lightweight Dependency Injection library for Node.js",
   "author": "Jean Dupouy <jean.dupouy@rednet.io>",
+  "repository": "izeau/cerise",
+  "bugs": "https://github.com/izeau/cerise/issues",
   "keywords": [
     "dependency",
     "injection",
