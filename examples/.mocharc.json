@@ -1,0 +1,6 @@
+{
+  "require": ["examples/.mocha.js"],
+  "exclude": ["examples/*/node_modules/**"],
+  "reporter": "dot",
+  "ui": "tdd"
+}

@@ -1,0 +1,5 @@
+{
+  "require": ["examples/.mocha.js"],
+  "reporter": "spec",
+  "ui": "bdd"
+}

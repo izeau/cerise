@@ -1,0 +1,48 @@
+{
+  "name": "cerise",
+  "version": "0.1.0",
+  "description": "Intuitive and lightweight Dependency Injection library for Node.js",
+  "author": "Jean Dupouy <jean.dupouy@rednet.io>",
+  "keywords": [
+    "dependency",
+    "injection",
+    "di",
+    "container",
+    "factory",
+    "singleton",
+    "service",
+    "proxy",
+    "middleware",
+    "controller",
+    "express",
+    "koa"
+  ],
+  "main": "cerise.js",
+  "module": "cerise.mjs",
+  "files": [
+    "cerise.js",
+    "cerise.mjs"
+  ],
+  "scripts": {
+    "build": "rollup -c .rollup.js",
+    "coverage": "nyc mocha 'lib/**/*.spec.js'",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "integration": "mocha --config examples/.mocharc.json 'examples/*/**/*.spec.js'",
+    "e2e": "mocha --config examples/.mocharc.e2e.json 'examples/*/test/**/*.js'",
+    "lint": "prettier --write '**/*.{js,json,md,yml}'",
+    "test": "mocha 'lib/**/*.spec.js'"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "esm": "^3.2.22",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0",
+    "prettier": "^1.17.0",
+    "rollup": "^1.10.1",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0"
+  }
+}
