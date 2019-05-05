@@ -1,6 +1,6 @@
 {
   "name": "cerise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Intuitive and lightweight Dependency Injection library for Node.js",
   "author": "Jean Dupouy <jean.dupouy@rednet.io>",
   "repository": "izeau/cerise",
